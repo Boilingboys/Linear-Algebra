@@ -231,3 +231,4 @@ $L_A(a\vec{x}+b\vec{y})=A(a\vec{x}+b\vec{y})=aA\vec{x}+bA\vec{y}=aL_A(\vec{x})+b
 Proof:**  
 $g(f(a\vec{v_1}+b\vec{v_2}))=g(a\vec{w_1}+b\vec{w_2})=ag(\vec{w_1})+bg(\vec{w_2})$ 
 So $L_AL_B(\vec{x}) \implies AB\vec{x}$   
+1
