@@ -206,10 +206,6 @@ From [[Vector Space#Dimension#Prop.]]Lemma 3 we prove that $rkA^TA=rkA$ ,so $rkA
 Left inverse:
 Take $A^TC=I \iff C^TA=I$ ,so left inverse: $C^T=(A^TA)^{-1}A^T$ 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 192924465d739f180bf64cf29a0e75ef23c13f48
 # Linear Transformation
 
 ## Def
