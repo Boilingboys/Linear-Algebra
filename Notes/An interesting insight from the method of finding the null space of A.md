@@ -36,5 +36,5 @@ First, we show that $P$ and $V$ are orthogonal, because $<\vec{p},\vec{f}>=0$ . 
  Given that every $\vec{x_i}$  is unique , so for every $\vec{f}\longrightarrow\vec{x}$ , if $\vec{f}=c_1\vec{f_1}+\cdots+c_n\vec{f_n}$ , then $\vec{x}=c_1\vec{x_1}+\cdots+d_n\vec{x_n}$ . Where:$$\begin{split}&\vec{f_1}\longrightarrow\vec{x_1}\\&\vec{f_2}\longrightarrow\vec{x_2}\\&\text{ }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\vdots\\&\vec{f_n}\longrightarrow\vec{x_n}\end{split}$$
 
 # Reflection:
-We construct a map from $F$ to $N(A)$ where a base of $F$ mapped to a base of $N(A)$ . We say $F$ and $N(A)$ are isomorphic. Now the problem is why this mapping could happened, what's the condition.
+We construct a map from $F$ to $N(A)$ where a basis of $F$ mapped to a base of $N(A)$ . We say $F$ and $N(A)$ are isomorphic(Later we see the linear transformation of this map is isomorphic). Now the problem is why this mapping could happened, what's the condition.
 [[Vector Space#Linear independence#Prop]] From here we can see $C+I$ is an invertible matrix.

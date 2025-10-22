@@ -218,10 +218,19 @@ For $A=[\vec{a_1},\vec{a_2},\cdots,\vec{a_n}]$:
 2. $L(A)$ is determined by its value at $\vec{e_i}$'s.
 3. $L_A(\vec{c})\in C(A)$ for any $\vec{c}\in\mathbb{R}^n$ $C(A)$ is called the image of $A$ ,note as $Im(A)$
 
+**Emphasize**
+    Using matrix to describe the linear transformation means:
+        $$L(v_1)=a_1w_1+a_2w_2+a_3w_3 \implies v_1=[a_1 ,a_2 ,a_3, a_4]\begin{bmatrix}w_1\\w_2\\w_3\\w_4 \end{bmatrix}$$
+    The matrix only describe the connection between the basis. 
+        
+
 For linear transformation $V\longrightarrow W:$
 $Im(L)=\{\vec{w} | L(\vec{v}=\vec{w}, \text{for some }\vec{v}\}$ 
 $ker(L)=\{\vec{v}|L(\vec{v})=\vec{0}\}$ 
 
+Linear transformation is isomorphic if:
+    $$\begin{split} &f:V\longrightarrow W\\&g:V\longrightarrow W\\&f\circ g=id_v\quad g\circ f=id_w\end{split}$$
+    It means $f\circ g$ gives the same basis from the start.
 ## Prop.
 **Linear transformation is linear.**
 **Proof:**
@@ -231,4 +240,4 @@ $L_A(a\vec{x}+b\vec{y})=A(a\vec{x}+b\vec{y})=aA\vec{x}+bA\vec{y}=aL_A(\vec{x})+b
 Proof:**  
 $g(f(a\vec{v_1}+b\vec{v_2}))=g(a\vec{w_1}+b\vec{w_2})=ag(\vec{w_1})+bg(\vec{w_2})$ 
 So $L_AL_B(\vec{x}) \implies AB\vec{x}$   
-1
+
