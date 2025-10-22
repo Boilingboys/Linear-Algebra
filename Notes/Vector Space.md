@@ -207,6 +207,7 @@ Left inverse:
 Take $A^TC=I \iff C^TA=I$ ,so left inverse: $C^T=(A^TA)^{-1}A^T$ 
 
 
+<<<<<<< HEAD
 # Linear Transformation
 
 ## Def
@@ -241,3 +242,9 @@ Proof:**
 $g(f(a\vec{v_1}+b\vec{v_2}))=g(a\vec{w_1}+b\vec{w_2})=ag(\vec{w_1})+bg(\vec{w_2})$ 
 So $L_AL_B(\vec{x}) \implies AB\vec{x}$   
 
+=======
+
+
+ 
+  
+>>>>>>> a1b1779637fc92722017e13a889078009756153c
