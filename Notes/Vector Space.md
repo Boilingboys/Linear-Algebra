@@ -206,7 +206,10 @@ From [[Vector Space#Dimension#Prop.]]Lemma 3 we prove that $rkA^TA=rkA$ ,so $rkA
 Left inverse:
 Take $A^TC=I \iff C^TA=I$ ,so left inverse: $C^T=(A^TA)^{-1}A^T$ 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 192924465d739f180bf64cf29a0e75ef23c13f48
 # Linear Transformation
 
 ## Def
@@ -236,8 +239,8 @@ Linear transformation is isomorphic if:
 **Proof:**
 $L_A(a\vec{x}+b\vec{y})=A(a\vec{x}+b\vec{y})=aA\vec{x}+bA\vec{y}=aL_A(\vec{x})+bL_A(\vec{y})$
 
-**Let $f: V\longrightarrow W \quad g:W\longrightarrow U$ then $g \circ f:V\longrightarrow U$ is a linear transformation.
-Proof:**  
+**Let $f: V\longrightarrow W \quad g:W\longrightarrow U$ then $g \circ f:V\longrightarrow U$ is a linear transformation.**
+**Proof:**  
 $g(f(a\vec{v_1}+b\vec{v_2}))=g(a\vec{w_1}+b\vec{w_2})=ag(\vec{w_1})+bg(\vec{w_2})$ 
 So $L_AL_B(\vec{x}) \implies AB\vec{x}$   
 
