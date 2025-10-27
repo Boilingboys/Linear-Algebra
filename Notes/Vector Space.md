@@ -152,7 +152,7 @@ Take a basis of $W$ ,we can extended them to the basis of $V$.
 $\mathbf{rank(AB)\leq min\{rank(A),rank(B)\}}$ 
 **Proof:** 
 *Lemma1:* $C(AB)\subseteq C(A)$ 
-    Let A be 3\*2, B be 2\*2:$A=[\vec{a_1},\vec{a_2},\vec{a_3}],B=[\vec{b_1},\vec{b_2}]$ 
+    Let A be 3\*2, B be 2\*2:$A=[\vec{a_1},\vec{a_2}],B=[\vec{b_1},\vec{b_2}]$ 
     $$AB=\begin{bmatrix}b_{11}\vec{a_1}+b_{21}\vec{a_2}&b_{12}\vec{a_1}+b_{22}\vec{a_2}\end{bmatrix}$$        So every column of $AB$ is a linear combination of columns in $A$.
     
 *Lemma2:* If $B$ is invertible, then $C(AB)=C(A)$ 
@@ -209,6 +209,7 @@ Take $A^TC=I \iff C^TA=I$ ,so left inverse: $C^T=(A^TA)^{-1}A^T$
 # Linear Transformation
 
 ## Def
+### map
 A function/map/assignment from $S_1$ to $S_2$ is whenever given $s\in S_1$ , it returns $f(s)$ .
 So we can consider a m\*n matrix $A$,$A\vec{x}$ is a linear transformation from $\mathbb{R}^m \longrightarrow \mathbb{R}^n$ .
 
@@ -222,11 +223,11 @@ For $A=[\vec{a_1},\vec{a_2},\cdots,\vec{a_n}]$:
         $$L(v_1)=a_1w_1+a_2w_2+a_3w_3 \implies v_1=[a_1 ,a_2 ,a_3, a_4]\begin{bmatrix}w_1\\w_2\\w_3\\w_4 \end{bmatrix}$$
     The matrix only describe the connection between the basis. 
         
-
+### Im and ker
 For linear transformation $V\longrightarrow W:$
 $Im(L)=\{\vec{w} | L(\vec{v}=\vec{w}, \text{for some }\vec{v}\}$ 
 $ker(L)=\{\vec{v}|L(\vec{v})=\vec{0}\}$ 
-
+### Isomorphism
 Linear transformation is isomorphic if:
     $$\begin{split} &f:V\longrightarrow W\\&g:V\longrightarrow W\\&f\circ g=id_v\quad g\circ f=id_w\end{split}$$
     It means $f\circ g$ gives the same basis from the start.
@@ -240,3 +241,7 @@ $L_A(a\vec{x}+b\vec{y})=A(a\vec{x}+b\vec{y})=aA\vec{x}+bA\vec{y}=aL_A(\vec{x})+b
 $g(f(a\vec{v_1}+b\vec{v_2}))=g(a\vec{w_1}+b\vec{w_2})=ag(\vec{w_1})+bg(\vec{w_2})$ 
 So $L_AL_B(\vec{x}) \implies AB\vec{x}$   
 
+**L is an isomorphism if and only if $\mathbf{[L]}$ is invertible.**
+**Proof:** 
+Assume L is a isomorphism, we have:$$T\circ W:W\longrightarrow V\quad \text{s.t}\ T\circ L=id_v\ ,\ L\circ T=id_w$$ So: $$[T][L]=[L][T]=I_{n\times n}$$ 
+ 
