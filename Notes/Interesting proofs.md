@@ -34,3 +34,10 @@ $\alpha=\underbrace{c_1\eta_{i_1}+\cdots+c_k\eta_{i_k}}_{\alpha_1}+\underbrace{d
 If $Cx=0$, then $Ax=0,Bx=0$. So $null\ C$ is orthogonal to $range\ A^T+range\ B^T$.
 $range\ C^T= (null \ C)^{\bot}= range\ A^T+range\ B^T$ 
 So:$dim\ range\ C^T =dim\ range\ (range\ A^T+range\ B^T)=dim\ range\ A^T+dim\ range\ B^T -dim\ (range\ A^T\cap range\ B^T)$ $\iff$ $rkC\leq rkA+rkB$ 
+# 4
+Let $AB=BA$ in #3, prove that $rkA+rkB\geq rkC+rkAB$ .
+**Proof:** 
+If $AB=BA$, then $\overbrace{AB\vec{x}}^{\in C(A)}=\overbrace{BA\vec{x}}^{\in C(B)}$ , so $C(AB)=C(BA)=C(A)\cap C(B)$ . Also $AB=BA \implies B^TA^T=A^TB^T$ , so $C(A^TB^T)=C(A^T)\cap C(B^T)$. Take orthogonal complement:
+$(C(A^TB^T))^\bot = N(A)+N(B)=N(BA)=N(AB)$ . So from #1, $N(A)\subseteq C(B)$ ,$rkA+rkB=rkAB+n$ .
+Obviously, $n\geq rkC$ .
+

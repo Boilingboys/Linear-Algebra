@@ -14,4 +14,4 @@ Suppose $A=L_1D_1U_1=L_2D_2U_2$  $U_1$ and $U_2$ are invertible($U$ is also non-
 $$L_2^{-1}L_1D_1=D_2U_2U_1^{-1}$$ left-side is lower triangular, right-side is upper triangular from proof1.
 
 So $L_2^{-1}L_1=U_2U_1^{-1}=I$ , then $L_2=L_1$ $U_2=U_1$ $D_1=D_2$ .
-
+`Notice: This factorization may not exist, PA=LDU always exist.`

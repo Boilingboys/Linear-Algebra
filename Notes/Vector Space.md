@@ -231,6 +231,7 @@ $ker(L)=\{\vec{v}|L(\vec{v})=\vec{0}\}$
 Linear transformation is isomorphic if:
     $$\begin{split} &f:V\longrightarrow W\\&g:V\longrightarrow W\\&f\circ g=id_v\quad g\circ f=id_w\end{split}$$
     It means $f\circ g$ gives the same basis from the start.
+    **Note:**  Suppose $V$ is a $k$-dimension subspace in $\mathbb{R}^n$, $W$ is a $k$-dimension subspace in $\mathbb{R}^m$. Can they be same? **NO!** However, we can say they are isomorphic by constructing a linear transformation from $V$ to $W$. 
 ## Prop.
 **Linear transformation is linear.**
 **Proof:**

@@ -14,6 +14,8 @@
         $\vec{x}\cdot\vec{y^T}$  is the outer product of $\vec{x}$ and $\vec{y}$ .
         $(\vec{x}\cdot\vec{y^T})^n=(\vec{y^T}\cdot\vec{x})^{n-1}\vec{x}\cdot\vec{y^T}$
         [[Lecture 4.pdf#page=222&rect=176,426,668,534|Lecture 4, p.222]]
+        **Prop:**
+         For $R^TR=I$ ,$R$ preserve inner product.
 5. Matrix Multiplication Properties
     1. Distributivity
 		$A(B+C)=AB+AC$
